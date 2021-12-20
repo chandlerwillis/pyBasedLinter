@@ -4,7 +4,7 @@ import pylint.lint
 
 
 #get git link
-gitLink = input("Enter link to github repo: ")
+gitLink = "https://github.com/chandlerwillis/pylinttest.git"
 
 #download git files
 directory = os.getcwd()
@@ -58,6 +58,8 @@ def findNodeJSFiles():
         else:
             continue
 findNodeJSFiles()
+
+
 
 
 
